@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "budo index.js:bundle.js"
+    "start": "budo index.js:bundle.js --ssl --cors"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "getusermedia": "^2.0.0",
     "simple-peer": "^6.0.7"
   },
   "devDependencies": {
